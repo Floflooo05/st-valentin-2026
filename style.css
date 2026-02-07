@@ -44,7 +44,12 @@ body {
     radial-gradient(1000px 600px at 15% 15%, #ffb3c6 0%, rgba(255, 179, 198, 0) 60%),
     radial-gradient(1000px 600px at 85% 20%, #ff8fab 0%, rgba(255, 143, 171, 0) 55%),
     linear-gradient(160deg, #fff0f5 0%, #ffccd9 35%, #ff9bb3 100%);
-  overflow: auto;
+  display: block;
+  overflow-y: auto;
+}
+
+.page--yes .card {
+  margin: 32px auto;
 }
 
 .card {
